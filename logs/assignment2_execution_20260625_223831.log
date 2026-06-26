@@ -1,0 +1,181 @@
+2026-06-25 22:38:31,217 - INFO - ================================================================================
+2026-06-25 22:38:31,217 - INFO - New program run started
+2026-06-25 22:38:31,217 - INFO - ================================================================================
+2026-06-25 22:38:31,217 - INFO - Assignment 2 program started
+2026-06-25 22:38:31,217 - INFO - Project root: D:\Study\Applied Artificial Intelligence & Machine Learning 2\Reinforcement Learning Programming\Assignments\Assignment 2
+2026-06-25 22:38:31,217 - INFO - Environment: Taxi-v4
+2026-06-25 22:38:31,217 - INFO - Number of episodes: 5000
+2026-06-25 22:38:31,217 - INFO - Max steps per episode: 10000
+2026-06-25 22:38:31,217 - INFO - Log file: D:\Study\Applied Artificial Intelligence & Machine Learning 2\Reinforcement Learning Programming\Assignments\Assignment 2\logs\assignment2_execution_20260625_223831.log
+2026-06-25 22:38:31,217 - INFO - Results folder: D:\Study\Applied Artificial Intelligence & Machine Learning 2\Reinforcement Learning Programming\Assignments\Assignment 2\results
+2026-06-25 22:38:31,217 - INFO - Plots folder: D:\Study\Applied Artificial Intelligence & Machine Learning 2\Reinforcement Learning Programming\Assignments\Assignment 2\plots
+2026-06-25 22:38:31,226 - INFO - Running required experiments
+2026-06-25 22:38:31,233 - INFO - Running experiment: baseline
+2026-06-25 22:38:31,233 - INFO - ============================================================
+2026-06-25 22:38:31,233 - INFO - Start training experiment: baseline
+2026-06-25 22:38:31,233 - INFO - Hyperparameters: alpha=0.1, gamma=0.9, epsilon=0.1
+2026-06-25 22:38:31,234 - INFO - Number of episodes: 5000
+2026-06-25 22:38:31,235 - INFO - Episode 0: steps=517, return=-1243
+2026-06-25 22:38:31,935 - INFO - Episode 500: steps=28, return=-16
+2026-06-25 22:38:32,079 - INFO - Episode 1000: steps=15, return=-3
+2026-06-25 22:38:32,155 - INFO - Episode 1500: steps=34, return=-22
+2026-06-25 22:38:32,232 - INFO - Episode 2000: steps=16, return=5
+2026-06-25 22:38:32,299 - INFO - Episode 2500: steps=14, return=7
+2026-06-25 22:38:32,366 - INFO - Episode 3000: steps=16, return=5
+2026-06-25 22:38:32,440 - INFO - Episode 3500: steps=18, return=3
+2026-06-25 22:38:32,506 - INFO - Episode 4000: steps=16, return=-4
+2026-06-25 22:38:32,580 - INFO - Episode 4500: steps=11, return=1
+2026-06-25 22:38:32,649 - INFO - Finished experiment: baseline
+2026-06-25 22:38:32,650 - INFO - Average steps: 30.9668
+2026-06-25 22:38:32,650 - INFO - Average return: -21.467
+2026-06-25 22:38:32,650 - INFO - ============================================================
+2026-06-25 22:38:32,673 - INFO - Running experiment: alpha_0.01
+2026-06-25 22:38:32,673 - INFO - ============================================================
+2026-06-25 22:38:32,673 - INFO - Start training experiment: alpha_0.01
+2026-06-25 22:38:32,673 - INFO - Hyperparameters: alpha=0.01, gamma=0.9, epsilon=0.1
+2026-06-25 22:38:32,673 - INFO - Number of episodes: 5000
+2026-06-25 22:38:32,675 - INFO - Episode 0: steps=434, return=-980
+2026-06-25 22:38:34,895 - INFO - Episode 500: steps=390, return=-549
+2026-06-25 22:38:35,897 - INFO - Episode 1000: steps=7, return=14
+2026-06-25 22:38:36,590 - INFO - Episode 1500: steps=276, return=-336
+2026-06-25 22:38:37,110 - INFO - Episode 2000: steps=55, return=-52
+2026-06-25 22:38:37,545 - INFO - Episode 2500: steps=168, return=-165
+2026-06-25 22:38:37,905 - INFO - Episode 3000: steps=33, return=-12
+2026-06-25 22:38:38,205 - INFO - Episode 3500: steps=27, return=-24
+2026-06-25 22:38:38,475 - INFO - Episode 4000: steps=45, return=-42
+2026-06-25 22:38:38,696 - INFO - Episode 4500: steps=10, return=11
+2026-06-25 22:38:38,898 - INFO - Finished experiment: alpha_0.01
+2026-06-25 22:38:38,898 - INFO - Average steps: 143.5086
+2026-06-25 22:38:38,898 - INFO - Average return: -175.0434
+2026-06-25 22:38:38,898 - INFO - ============================================================
+2026-06-25 22:38:46,171 - INFO - Running experiment: alpha_0.001
+2026-06-25 22:38:46,171 - INFO - ============================================================
+2026-06-25 22:38:46,171 - INFO - Start training experiment: alpha_0.001
+2026-06-25 22:38:46,171 - INFO - Hyperparameters: alpha=0.001, gamma=0.9, epsilon=0.1
+2026-06-25 22:38:46,171 - INFO - Number of episodes: 5000
+2026-06-25 22:38:46,175 - INFO - Episode 0: steps=501, return=-1317
+2026-06-25 22:38:52,465 - INFO - Episode 500: steps=665, return=-905
+2026-06-25 22:39:01,495 - INFO - Episode 1000: steps=600, return=-840
+2026-06-25 22:39:08,955 - INFO - Episode 1500: steps=463, return=-559
+2026-06-25 22:39:15,626 - INFO - Episode 2000: steps=691, return=-832
+2026-06-25 22:39:21,555 - INFO - Episode 2500: steps=291, return=-378
+2026-06-25 22:39:26,910 - INFO - Episode 3000: steps=344, return=-467
+2026-06-25 22:39:31,417 - INFO - Episode 3500: steps=704, return=-926
+2026-06-25 22:39:35,170 - INFO - Episode 4000: steps=48, return=-45
+2026-06-25 22:39:39,435 - INFO - Episode 4500: steps=460, return=-592
+2026-06-25 22:39:43,196 - INFO - Finished experiment: alpha_0.001
+2026-06-25 22:39:43,196 - INFO - Average steps: 503.2002
+2026-06-25 22:39:43,196 - INFO - Average return: -678.1878
+2026-06-25 22:39:43,196 - INFO - ============================================================
+2026-06-25 22:39:59,806 - INFO - Running experiment: alpha_0.2
+2026-06-25 22:39:59,806 - INFO - ============================================================
+2026-06-25 22:39:59,806 - INFO - Start training experiment: alpha_0.2
+2026-06-25 22:39:59,806 - INFO - Hyperparameters: alpha=0.2, gamma=0.9, epsilon=0.1
+2026-06-25 22:39:59,806 - INFO - Number of episodes: 5000
+2026-06-25 22:39:59,823 - INFO - Episode 0: steps=718, return=-1768
+2026-06-25 22:40:00,880 - INFO - Episode 500: steps=14, return=7
+2026-06-25 22:40:01,142 - INFO - Episode 1000: steps=13, return=8
+2026-06-25 22:40:01,368 - INFO - Episode 1500: steps=11, return=10
+2026-06-25 22:40:01,567 - INFO - Episode 2000: steps=10, return=11
+2026-06-25 22:40:01,729 - INFO - Episode 2500: steps=11, return=10
+2026-06-25 22:40:01,937 - INFO - Episode 3000: steps=16, return=5
+2026-06-25 22:40:02,151 - INFO - Episode 3500: steps=12, return=9
+2026-06-25 22:40:02,345 - INFO - Episode 4000: steps=14, return=7
+2026-06-25 22:40:02,505 - INFO - Episode 4500: steps=16, return=5
+2026-06-25 22:40:02,625 - INFO - Finished experiment: alpha_0.2
+2026-06-25 22:40:02,625 - INFO - Average steps: 23.5498
+2026-06-25 22:40:02,625 - INFO - Average return: -11.1124
+2026-06-25 22:40:02,625 - INFO - ============================================================
+2026-06-25 22:40:02,670 - INFO - Running experiment: epsilon_0.2
+2026-06-25 22:40:02,670 - INFO - ============================================================
+2026-06-25 22:40:02,670 - INFO - Start training experiment: epsilon_0.2
+2026-06-25 22:40:02,670 - INFO - Hyperparameters: alpha=0.1, gamma=0.9, epsilon=0.2
+2026-06-25 22:40:02,670 - INFO - Number of episodes: 5000
+2026-06-25 22:40:02,683 - INFO - Episode 0: steps=425, return=-1142
+2026-06-25 22:40:04,834 - INFO - Episode 500: steps=17, return=4
+2026-06-25 22:40:05,271 - INFO - Episode 1000: steps=27, return=-33
+2026-06-25 22:40:05,531 - INFO - Episode 1500: steps=30, return=-54
+2026-06-25 22:40:05,791 - INFO - Episode 2000: steps=16, return=-4
+2026-06-25 22:40:06,016 - INFO - Episode 2500: steps=28, return=-43
+2026-06-25 22:40:06,225 - INFO - Episode 3000: steps=12, return=9
+2026-06-25 22:40:06,460 - INFO - Episode 3500: steps=13, return=8
+2026-06-25 22:40:06,715 - INFO - Episode 4000: steps=13, return=-1
+2026-06-25 22:40:06,841 - INFO - Episode 4500: steps=14, return=7
+2026-06-25 22:40:07,032 - INFO - Finished experiment: epsilon_0.2
+2026-06-25 22:40:07,032 - INFO - Average steps: 33.5322
+2026-06-25 22:40:07,032 - INFO - Average return: -33.3636
+2026-06-25 22:40:07,032 - INFO - ============================================================
+2026-06-25 22:40:07,056 - INFO - Running experiment: epsilon_0.3
+2026-06-25 22:40:07,056 - INFO - ============================================================
+2026-06-25 22:40:07,056 - INFO - Start training experiment: epsilon_0.3
+2026-06-25 22:40:07,056 - INFO - Hyperparameters: alpha=0.1, gamma=0.9, epsilon=0.3
+2026-06-25 22:40:07,056 - INFO - Number of episodes: 5000
+2026-06-25 22:40:07,077 - INFO - Episode 0: steps=891, return=-2454
+2026-06-25 22:40:09,085 - INFO - Episode 500: steps=16, return=-13
+2026-06-25 22:40:09,598 - INFO - Episode 1000: steps=14, return=-2
+2026-06-25 22:40:09,975 - INFO - Episode 1500: steps=18, return=-15
+2026-06-25 22:40:10,297 - INFO - Episode 2000: steps=28, return=-34
+2026-06-25 22:40:10,595 - INFO - Episode 2500: steps=22, return=-1
+2026-06-25 22:40:10,871 - INFO - Episode 3000: steps=20, return=-17
+2026-06-25 22:40:11,175 - INFO - Episode 3500: steps=10, return=11
+2026-06-25 22:40:11,479 - INFO - Episode 4000: steps=28, return=-34
+2026-06-25 22:40:11,716 - INFO - Episode 4500: steps=21, return=0
+2026-06-25 22:40:12,006 - INFO - Finished experiment: epsilon_0.3
+2026-06-25 22:40:12,006 - INFO - Average steps: 36.7542
+2026-06-25 22:40:12,006 - INFO - Average return: -47.8446
+2026-06-25 22:40:12,006 - INFO - ============================================================
+2026-06-25 22:40:12,056 - INFO - All required experiments finished
+2026-06-25 22:40:12,056 - INFO - 
+  experiment_name  alpha  epsilon  gamma  training_average_steps  training_average_return  training_average_reward_per_step  evaluation_average_steps  evaluation_average_return  evaluation_average_reward_per_step  evaluation_success_rate
+0        baseline  0.100      0.1    0.9                 30.9668                 -21.4670                          0.087200                     13.01                       7.99                            0.696305                     1.00
+1      alpha_0.01  0.010      0.1    0.9                143.5086                -175.0434                         -0.856320                   7901.98                   -9697.39                           -0.700126                     0.21
+2     alpha_0.001  0.001      0.1    0.9                503.2002                -678.1878                         -1.317462                  10000.00                  -11800.00                           -1.180000                     0.00
+3       alpha_0.2  0.200      0.1    0.9                 23.5498                 -11.1124                          0.174515                     13.22                       7.78                            0.645477                     1.00
+4     epsilon_0.2  0.100      0.2    0.9                 33.5322                 -33.3636                         -0.330888                     13.43                       7.57                            0.638486                     1.00
+5     epsilon_0.3  0.100      0.3    0.9                 36.7542                 -47.8446                         -0.721982                     13.34                       7.66                            0.650834                     1.00
+2026-06-25 22:40:12,073 - INFO - Experiment summary:
+2026-06-25 22:40:12,076 - INFO - 
+  experiment_name  alpha  epsilon  gamma  training_average_steps  training_average_return  training_average_reward_per_step  evaluation_average_steps  evaluation_average_return  evaluation_average_reward_per_step  evaluation_success_rate
+0        baseline  0.100      0.1    0.9                 30.9668                 -21.4670                          0.087200                     13.01                       7.99                            0.696305                     1.00
+1      alpha_0.01  0.010      0.1    0.9                143.5086                -175.0434                         -0.856320                   7901.98                   -9697.39                           -0.700126                     0.21
+2     alpha_0.001  0.001      0.1    0.9                503.2002                -678.1878                         -1.317462                  10000.00                  -11800.00                           -1.180000                     0.00
+3       alpha_0.2  0.200      0.1    0.9                 23.5498                 -11.1124                          0.174515                     13.22                       7.78                            0.645477                     1.00
+4     epsilon_0.2  0.100      0.2    0.9                 33.5322                 -33.3636                         -0.330888                     13.43                       7.57                            0.638486                     1.00
+5     epsilon_0.3  0.100      0.3    0.9                 36.7542                 -47.8446                         -0.721982                     13.34                       7.66                            0.650834                     1.00
+2026-06-25 22:40:12,077 - INFO - Creating individual plots
+2026-06-25 22:40:15,915 - INFO - Creating comparison bar plots
+2026-06-25 22:40:16,581 - INFO - Creating combined curve plots
+2026-06-25 22:40:17,397 - INFO - Running best combination experiment
+2026-06-25 22:40:17,398 - INFO - Selected best combination
+2026-06-25 22:40:17,398 - INFO - alpha=0.1, epsilon=0.1, gamma=0.9
+2026-06-25 22:40:17,450 - INFO - Running experiment: best_combination
+2026-06-25 22:40:17,450 - INFO - ============================================================
+2026-06-25 22:40:17,450 - INFO - Start training experiment: best_combination
+2026-06-25 22:40:17,450 - INFO - Hyperparameters: alpha=0.1, gamma=0.9, epsilon=0.1
+2026-06-25 22:40:17,450 - INFO - Number of episodes: 5000
+2026-06-25 22:40:17,476 - INFO - Episode 0: steps=1017, return=-2409
+2026-06-25 22:40:19,369 - INFO - Episode 500: steps=7, return=14
+2026-06-25 22:40:19,797 - INFO - Episode 1000: steps=10, return=11
+2026-06-25 22:40:20,055 - INFO - Episode 1500: steps=11, return=10
+2026-06-25 22:40:20,285 - INFO - Episode 2000: steps=20, return=1
+2026-06-25 22:40:20,526 - INFO - Episode 2500: steps=16, return=5
+2026-06-25 22:40:20,678 - INFO - Episode 3000: steps=15, return=-3
+2026-06-25 22:40:20,849 - INFO - Episode 3500: steps=18, return=3
+2026-06-25 22:40:20,991 - INFO - Episode 4000: steps=14, return=7
+2026-06-25 22:40:21,188 - INFO - Episode 4500: steps=15, return=-3
+2026-06-25 22:40:21,406 - INFO - Finished experiment: best_combination
+2026-06-25 22:40:21,406 - INFO - Average steps: 30.8108
+2026-06-25 22:40:21,406 - INFO - Average return: -21.2678
+2026-06-25 22:40:21,406 - INFO - ============================================================
+2026-06-25 22:40:21,453 - INFO - Best Combination Result:
+2026-06-25 22:40:21,453 - INFO - Experiment: best_combination
+2026-06-25 22:40:21,453 - INFO - Alpha: 0.1
+2026-06-25 22:40:21,455 - INFO - Epsilon: 0.1
+2026-06-25 22:40:21,455 - INFO - Gamma: 0.9
+2026-06-25 22:40:21,455 - INFO - Average steps: 30.8108
+2026-06-25 22:40:21,455 - INFO - Average return: -21.2678
+2026-06-25 22:40:21,455 - INFO - Evaluation average steps: 13.18
+2026-06-25 22:40:21,455 - INFO - Evaluation average return: 7.82
+2026-06-25 22:40:21,455 - INFO - Evaluation success rate: 1.0
+2026-06-25 22:40:21,455 - INFO - Creating best combination plots
+2026-06-25 22:40:22,014 - INFO - Assignment 2 program finished
