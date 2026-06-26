@@ -1,0 +1,37 @@
+2026-06-26 00:23:40,488 - INFO - ================================================================================
+2026-06-26 00:23:40,488 - INFO - New program run started
+2026-06-26 00:23:40,488 - INFO - ================================================================================
+2026-06-26 00:23:40,488 - INFO - Assignment 2 program started
+2026-06-26 00:23:40,488 - INFO - Project root: D:\Study\Applied Artificial Intelligence & Machine Learning 2\Reinforcement Learning Programming\Assignments\Assignment 2
+2026-06-26 00:23:40,488 - INFO - Environment: Taxi-v4
+2026-06-26 00:23:40,488 - INFO - Number of episodes: 5000
+2026-06-26 00:23:40,488 - INFO - Max steps per episode: 10000
+2026-06-26 00:23:40,488 - INFO - Log file: D:\Study\Applied Artificial Intelligence & Machine Learning 2\Reinforcement Learning Programming\Assignments\Assignment 2\logs\assignment2_execution_20260626_002340.log
+2026-06-26 00:23:40,488 - INFO - Results folder: D:\Study\Applied Artificial Intelligence & Machine Learning 2\Reinforcement Learning Programming\Assignments\Assignment 2\results
+2026-06-26 00:23:40,488 - INFO - Plots folder: D:\Study\Applied Artificial Intelligence & Machine Learning 2\Reinforcement Learning Programming\Assignments\Assignment 2\plots
+2026-06-26 00:23:40,488 - INFO - Running required experiments
+2026-06-26 00:23:40,496 - INFO - Running experiment: baseline
+2026-06-26 00:23:40,496 - INFO - ============================================================
+2026-06-26 00:23:40,496 - INFO - Start training experiment: baseline
+2026-06-26 00:23:40,496 - INFO - Hyperparameters: alpha=0.1, gamma=0.9, epsilon=0.1
+2026-06-26 00:23:40,496 - INFO - Number of episodes: 5000
+2026-06-26 00:23:40,501 - INFO - Episode 0: steps=597, return=-1377
+2026-06-26 00:23:41,196 - INFO - Episode 500: steps=54, return=-60
+2026-06-26 00:23:41,346 - INFO - Episode 1000: steps=44, return=-32
+2026-06-26 00:23:41,426 - INFO - Episode 1500: steps=44, return=-32
+2026-06-26 00:23:41,508 - INFO - Episode 2000: steps=9, return=-6
+2026-06-26 00:23:41,582 - INFO - Episode 2500: steps=9, return=12
+2026-06-26 00:23:41,659 - INFO - Episode 3000: steps=15, return=6
+2026-06-26 00:23:41,735 - INFO - Episode 3500: steps=12, return=9
+2026-06-26 00:23:41,806 - INFO - Episode 4000: steps=20, return=1
+2026-06-26 00:23:41,880 - INFO - Episode 4500: steps=17, return=4
+2026-06-26 00:23:41,953 - INFO - Finished experiment: baseline
+2026-06-26 00:23:41,953 - INFO - Average steps: 30.6204
+2026-06-26 00:23:41,953 - INFO - Average return: -21.1368
+2026-06-26 00:23:41,953 - INFO - ============================================================
+2026-06-26 00:23:41,972 - INFO - Running experiment: alpha_0.01
+2026-06-26 00:23:41,972 - INFO - ============================================================
+2026-06-26 00:23:41,972 - INFO - Start training experiment: alpha_0.01
+2026-06-26 00:23:41,972 - INFO - Hyperparameters: alpha=0.01, gamma=0.9, epsilon=0.1
+2026-06-26 00:23:41,972 - INFO - Number of episodes: 5000
+2026-06-26 00:23:41,976 - INFO - Episode 0: steps=1152, return=-2535

@@ -41,3 +41,6 @@ dist/
 
 # Documentation files
 docs/
+
+
+.gitignore
